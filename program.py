@@ -8,7 +8,6 @@ def get_computer_choice():
 def get_human_choice():
     return input("Rock, paper, or scissors?\n")
 
-global human_score, computer_score
 human_score = 0
 computer_score = 0
 
