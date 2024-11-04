@@ -7,6 +7,7 @@ rps = ["rock", "paper", "scissors"]
 def get_computer_choice():
     return random.choice(rps)
 
+# Returns input from the user.
 def get_human_choice():
     return input("Rock, paper, or scissors?\n")
 
